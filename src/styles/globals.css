@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --pink: #A15C61; 
+  --coffee: #9C7E69;
+  --green: #95A78D;
+  --darkGreen: #525e4d;
+  --lightpink: #BD897E;
+  --peach: #D4A373;
+  --main-font:  "Montserrat", sans-serif;
+  --secondary-font: "Playfair Display", serif;
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+} */
+@layer utilities{
+  .pink{
+    color: var(--pink);
+  }
+  .light-pink{
+    color: var(--lightpink);
+  }
+  .coffee{
+    color: var(--coffee);
+  }
+  .peach{
+    color: var(--peach);
+  }
+  .darkGreen{
+    color: var(--darkGreen);
+  }
+  .font-montserrat{
+    font-family: var(--main-font)
+  }
+  .font-playfair{
+    font-family: var(--secondary-font);
+  }
+}
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff; 
+    --foreground: #ededed;
+  } */
+/* } */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Montserrat", sans-serif;
+}

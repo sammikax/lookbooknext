@@ -1,0 +1,9 @@
+{
+  "signin": "サインイン",
+  "signup": "登録する",
+  "username": "ユーザー名",
+  "email": "メールアドレス",
+  "password": "パスワード",
+  "button": "サインイン",
+  "loginSuccess": "ログインに成功しました！"
+}

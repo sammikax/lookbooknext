@@ -1,0 +1,9 @@
+{
+  "signin": "sign in",
+  "signup": "sign up",
+  "username": "username",
+  "email": "email",
+  "password": "password",
+  "button": "sign in",
+  "loginSuccess" : "You have successfully logged in!"
+}

@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "home",
+    "books": "books",
+    "login": "login",
+    "profile": "profile",
+    "membership": "membership",
+    "language": "Change Language",
+     "english": "english",
+    "spanish": "español",
+    "french": "français",
+    "japanese": "日本語"
+  }
+}

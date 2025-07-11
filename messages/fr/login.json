@@ -1,0 +1,9 @@
+{
+  "signin": "se connecter",
+  "signup": "s'inscrire",
+  "username": "nom d'utilisateur",
+  "email": "e-mail",
+  "password": "mot de passe",
+  "button": "se connecter",
+  "loginSuccess": "Connexion réussie !"
+}
